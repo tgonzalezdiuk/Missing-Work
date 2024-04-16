@@ -9,19 +9,19 @@ public class GradeAve
     public static void main(String[] args )
     {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter a grades: ");
+        System.out.print("Enter a grade: ");
         int Grade1 = input.nextInt();
 
-        System.out.print("Enter a grades: ");
+        System.out.print("Enter a grade: ");
         int Grade2 = input.nextInt();
 
-        System.out.print("Enter a grades: ");
+        System.out.print("Enter a grade: ");
         int Grade3 = input.nextInt();
 
-        System.out.print("Enter a grades: ");
+        System.out.print("Enter a grade: ");
         int Grade4 = input.nextInt();
 
-        System.out.print("Enter a grades: ");
+        System.out.print("Enter a grade: ");
         int Grade5 = input.nextInt();
 
         double Average = ((Grade1 + Grade2 + Grade3 + Grade4 + Grade5)/5);
